@@ -13,9 +13,18 @@ public: void cetak() {
 
 class Matakuliah {
 private:
-    string code;
+    string kode;
     string namaM;
     int sks;
+public:
+    void input() {
+        cout << "Masukan kode Matakuliah : ";
+        cin >> kode;
+        cout << "Masukan nama Matakuliah : ";
+        cin >> namaM;
+        cout << "Jumlah SKS : ";
+        cin >> sks;
+    }
 };
 int main()
 {
