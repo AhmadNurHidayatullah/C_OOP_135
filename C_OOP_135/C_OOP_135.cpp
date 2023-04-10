@@ -34,7 +34,15 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs1;
+    mahasiswa mk;
+
+    cout << "Masukan NIM : ";
+    cin >> mhs1.nim;
+    cout << "Masukan nama : ";
+    cin >> mhs1.nama;
+    mhs1.cetak();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
