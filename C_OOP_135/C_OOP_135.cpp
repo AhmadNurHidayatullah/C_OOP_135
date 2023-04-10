@@ -13,7 +13,9 @@ public: void cetak() {
 
 class Matakuliah {
 private:
-
+    string code;
+    string namaM;
+    int sks;
 };
 int main()
 {
